@@ -3,5 +3,13 @@ module.exports = {
     siteUrl: "https://www.yourdomain.tld",
     title: "ahmedKhalid",
   },
-  plugins: [],
+  plugins: ['gatsby-plugin-postcss',
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: /svg/ // See below to configure properly
+        }
+      }
+    }],
 };
