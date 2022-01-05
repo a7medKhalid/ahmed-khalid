@@ -1,0 +1,29 @@
+import Tqyeem from "/src/images/projects/Tqyeem.png"
+import Portfolio from "/src/images/projects/Portfolio.png"
+
+import React from "/src/images/projects/react-1-logo-png-transparent.png"
+import Eth from "/src/images/projects/Eth.png"
+import Solidity from "/src/images/projects/solidity.png"
+
+export const CarouselProjectData = [
+    {
+        title:"تقييم",
+        desc:"مشروع مبني على البلوكتشين على شبكة ايثريوم مبني بإستخدام لغة سوليدتي الخاصة ببرمجة البلوكتشين وإطار دجانقو الخاص بتطوير الويب",
+        image: Tqyeem,
+        start:"https://tqyeem.herokuapp.com/",
+        code:"https://github.com/a7medKhalid/tqyeem_heroku/tree/master",
+        tech1:Eth,
+        tech2:Solidity
+
+    },
+    {
+        title:"موقعي الشخصي",
+        desc:"هذا الموقع الذي تتصفحه",
+        image: Portfolio,
+        start:"",
+        code:"",
+        tech1:React,
+
+    },
+
+];
