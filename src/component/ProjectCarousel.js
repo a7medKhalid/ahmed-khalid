@@ -13,18 +13,18 @@ class ProjectCarousel extends Component {
             paused: false,
         };
     }
-
-    componentDidMount() {
-        setInterval(() => {
-            if (this.state.paused === false) {
-                let newSlide =
-                    this.state.currentSlide === CarouselProjectData.length - 1
-                        ? 0
-                        : this.state.currentSlide + 1;
-                this.setState({ currentSlide: newSlide });
-            }
-        }, 3000);
-    }
+    //
+    // componentDidMount() {
+    //     setInterval(() => {
+    //         if (this.state.paused === false) {
+    //             let newSlide =
+    //                 this.state.currentSlide === CarouselProjectData.length - 1
+    //                     ? 0
+    //                     : this.state.currentSlide + 1;
+    //             this.setState({ currentSlide: newSlide });
+    //         }
+    //     }, 3000);
+    // }
 
     nextSlide = () => {
         let newSlide =
@@ -58,7 +58,7 @@ class ProjectCarousel extends Component {
                      }}>
                     <AiOutlineLeft
                         onClick={this.prevSlide}
-                        className="absolute left-0 text-3xl inset-y-1/2 text-white cursor-pointer"
+                        className="absolute left-0 text-3xl inset-y-1/2 text-white cursor-pointer ml-5"
                     />
 
                     <Swipe onSwipeLeft={this.nextSlide} onSwipeRight={this.prevSlide}>
@@ -197,7 +197,7 @@ class ProjectCarousel extends Component {
 
                     </Swipe>
 
-                    <div className="absolute w-full flex justify-center bottom-0">
+                    <div className="absolute w-full flex justify-center bottom-0 mb-5">
                         {CarouselProjectData.map((element, index) => {
                             return (
                                 <div
@@ -217,7 +217,7 @@ class ProjectCarousel extends Component {
 
                     <AiOutlineRight
                         onClick={this.nextSlide}
-                        className="absolute right-0 text-3xl inset-y-1/2 text-white cursor-pointer"
+                        className="absolute right-0 text-3xl inset-y-1/2 text-white cursor-pointer mr-5"
                     />
                 </div>
             </div>

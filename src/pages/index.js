@@ -18,18 +18,18 @@ const IndexPage = () => {
           <div className="md:flex flex-row">
               <div>
                   <div className="object-contain h-48 w-96">
-                      <p className="text-l">أحمد خالد</p>
-                      <p className="text-4xl font-bold">مهندس برمجيات</p>
-                      <p className="text-xl">
+                      <p className="text-l px-5">أحمد خالد</p>
+                      <p className="text-4xl font-bold px-5">مهندس برمجيات</p>
+                      <p className="text-xl px-5">
                           تطوير مشاريع برمجية
                           متخصص في الباك اند وأمن المعلومات
                       </p>
                   </div>
 
                   <div className="flex flex-row-reverse">
-                        <Twitter  className="w-10 h-auto ml-5"/>
-                        <Youtube className="w-10 h-auto ml-5"/>
-                        <Whatsapp className="w-10 h-auto"/>
+                        <Twitter  className="w-10 h-auto ml-5 px-5"/>
+                        <Youtube className="w-10 h-auto ml-5 px-5"/>
+                        <Whatsapp className="w-10 h-auto px-5"/>
                   </div>
               </div>
 
@@ -53,10 +53,10 @@ const IndexPage = () => {
           </div>
       </section>
 
-      <section className="w-full h-screen bg-gray-600 snap-start">
-        <h1>Four Page</h1>
+      {/*<section className="w-full h-screen bg-gray-600 snap-start">*/}
+      {/*  <h1>Four Page</h1>*/}
 
-      </section>
+      {/*</section>*/}
     </div>
   )
 }
