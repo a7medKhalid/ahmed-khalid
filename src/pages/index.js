@@ -5,14 +5,14 @@ import Twitter from "/src/images/svg/icons8-twitter.svg"
 import Youtube from "/src/images/svg/icons8-youtube.svg"
 import Whatsapp from "/src/images/svg/whatsapp-121.svg"
 import Github from "/src/images/svg/github.svg"
-import Linkedin from "/src/images/svg/linkedin.svg"
+import Linkedin from "/src/images/svg/Linkedin.svg"
 
 import Avatar from "/src/images/avatar.jpg"
 
 import Projects from "/src/images/svg/projects.svg"
 import ProjectsPage from "../component/ProjectsPage";
 
-import Services from "/src/images/svg/services.svg"
+import Services from "/src/images/svg/Services.svg"
 import ServicesPage from "../component/ServicesPage";
 
 import Articles from "/src/images/svg/articles.svg"
