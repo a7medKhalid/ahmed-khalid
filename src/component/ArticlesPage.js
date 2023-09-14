@@ -6,7 +6,7 @@ import { ArticlesData } from "./ArticlesData";
 class ArticlesPage extends Component {
     render() {
         return (
-            <div class="container mx-auto flex flex-wrap py-6 items-center">
+            <div className="container mx-auto flex flex-wrap py-6 items-center">
 
                 {/*<section class="w-full md: flex flex-col items-center px-3">*/}
                 {/*    {ArticlesData.map((article, index) => (*/}

@@ -25,17 +25,17 @@ const IndexPage = () => {
     const [selectedComponent, setSelectedComponent] = useState('services');
 
   return (
-    <div className="bg-slate-900  w-full min-h-screen">
+    <div className="bg-slate-950  w-full min-h-screen">
 
-        <div class="bg-slate-900 md:fixed md:top-0 md:left-0 w-full text-white p-8 ">
-           <div class="flex items-center justify-center flex-col md:flex-row-reverse">
+        <div className="bg-slate-950 md:fixed md:top-0 md:left-0 w-full text-white p-8 ">
+           <div className="flex items-center justify-center flex-col md:flex-row-reverse">
                 <div>
-                    <img class="md:ml-4 mt-4 h-36 w-36 rounded-full ring-2 ring-white" src={Avatar} alt=""/>
+                    <img className="md:ml-4 mt-4 h-36 w-36 rounded-full ring-2 ring-white" src={Avatar} alt=""/>
                 </div>
                 <div className="mt-8 md:mr-8">
                     <div className="p-4">
-                        <h1 class="text-4xl font-bold">أحمد خالد</h1>
-                        <p class="text-2xl"> مهندس برمجيات</p>
+                        <h1 className="text-4xl font-bold">أحمد خالد</h1>
+                        <p className="text-2xl"> مهندس برمجيات</p>
                     </div>
                     <Twitter className="inline-block w-8 h-8 mr-2" />
                     <Youtube className="inline-block w-10 h-10 mr-2" />
@@ -48,7 +48,7 @@ const IndexPage = () => {
             </div>
         </div>
 
-        <div className={`bg-slate-800 flex md:flex-col px-4 md:px-0  fixed translate-x-1/2 md:translate-x-1 right-1/2 md:right-0 bottom-0 md:bottom-1/2 md:translate-y-1/2 rounded-2xl md:rounded-r md:rounded-l-2xl mb-8 md:mb-0 text-white`}>
+        <div className={`bg-slate-900 flex md:flex-col px-4 md:px-0  fixed translate-x-1/2 md:translate-x-1 right-1/2 md:right-0 bottom-0 md:bottom-1/2 md:translate-y-1/2 rounded-2xl md:rounded-r md:rounded-l-2xl mb-8 md:mb-0 text-white`}>
 
             <div className="relative flex flex-col items-center p-2 md:p-4">
                 <div className={`absolute top-0 md:left-0 left-1/4 md:top-1/4 w-1/2 md:h-1/2 h-1 md:w-1 ${selectedComponent === 'articles' ? 'bg-green-500' : 'bg-gray-300'}`}></div>
