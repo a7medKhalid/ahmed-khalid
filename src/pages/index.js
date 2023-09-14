@@ -26,6 +26,7 @@ const IndexPage = () => {
 
   return (
     <div className="bg-slate-950  w-full min-h-screen">
+        
 
         <div className="bg-slate-950 md:fixed md:top-0 md:left-0 w-full text-white p-8 ">
            <div className="flex items-center justify-center flex-col md:flex-row-reverse">
