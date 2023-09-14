@@ -2,11 +2,11 @@ import Tqyeem from "/src/images/projects/Tqyeem.png"
 import Portfolio from "/src/images/projects/Portfolio.png"
 import underConstruction from "/src/images/projects/underConstruction.png"
 
-import Tefly from "/src/images/projects/Screenshot 2023-09-14 at 2.27.05 AM.png"
-import Mujadwill from "/src/images/projects/Screenshot 2023-09-14 at 2.49.13 AM.png"
-import Horyrah from "/src/images/projects/Screenshot 2023-09-14 at 2.57.37 AM.png"
-import Haql from "/src/images/projects/Screenshot 2023-09-14 at 3.03.12 AM.png"
-import Ednuvo from "/src/images/projects/Screenshot 2023-09-14 at 3.09.54 AM.png"
+import Tefly from "/src/images/projects/Tefly.png"
+import Mujadwill from "/src/images/projects/Mujadwil.png"
+import Horyrah from "/src/images/projects/Horyrah.png"
+import Haql from "/src/images/projects/Haql.png"
+import Ednuvo from "/src/images/projects/ednuvo.png"
 
 
 
