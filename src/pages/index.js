@@ -25,10 +25,10 @@ const IndexPage = () => {
     const [selectedComponent, setSelectedComponent] = useState('services');
 
   return (
-    <div className="bg-slate-950  w-full min-h-screen">
-        
+    <div className="w-full min-h-screen" style={{backgroundColor:"#1a202c"}}>
 
-        <div className="bg-slate-950 md:fixed md:top-0 md:left-0 w-full text-white p-8 ">
+
+        <div className=" md:fixed md:top-0 md:left-0 w-full text-white p-8 " style={{backgroundColor:"#1a202c"}}>
            <div className="flex items-center justify-center flex-col md:flex-row-reverse">
                 <div>
                     <img className="md:ml-4 mt-4 h-36 w-36 rounded-full ring-2 ring-white" src={Avatar} alt=""/>
